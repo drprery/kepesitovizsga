@@ -21,7 +21,7 @@ class JurassicParkTest {
         dataSource = new MariaDbDataSource();
         dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
         dataSource.setUser("root");
-        dataSource.setPassword("root74");
+        dataSource.setPassword("pkr74");
 
         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 

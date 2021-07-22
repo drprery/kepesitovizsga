@@ -1,9 +1,10 @@
 package hu.nive.ujratervezes.kepesitovizsga.army;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Army {
-    private List<MilitaryUnit> militaryUnits;
+    private List<MilitaryUnit> militaryUnits = new ArrayList<>();
 
     public void addUnit(MilitaryUnit militaryUnit){
         militaryUnits.add(militaryUnit);
